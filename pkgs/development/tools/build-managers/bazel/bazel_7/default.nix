@@ -46,7 +46,7 @@
   # Always assume all markers valid (this is needed because we remove markers; they are non-deterministic).
   # Also, don't clean up environment variables (so that NIX_ environment variables are passed to compilers).
   enableNixHacks ? false,
-  version ? "7.4.0rc1",
+  version ? "7.4.0",
 }:
 
 let
@@ -111,7 +111,7 @@ let
       if stdenv.hostPlatform.system == "x86_64-linux" then
         fetchurl {
           url = "https://github.com/bazelbuild/bazel/releases/download/${version}/bazel_nojdk-${version}-linux-x86_64";
-          hash = "sha256-05fHtz47OilpOVYawB17VRVEDpycfYTIHBmwYCOyPjI=";
+          hash = "sha256-qtlZZLyT8mThXVEJ7vTfon7Xlz0giQgblMownJR7mHU=";
         }
       else if stdenv.hostPlatform.system == "aarch64-linux" then
         fetchurl {
