@@ -244,7 +244,7 @@ let
       outputHashMode = "recursive";
       outputHash =
         if stdenv.hostPlatform.system == "x86_64-linux" then
-          "sha256-II5R2YjaIejcO4Topdcz1H268eplYsYrW2oLJHKEkYw="
+          "sha256-yKy6IBIkjvN413kFMgkWCH3jAgF5AdpxrVnQyhgfWPA="
         else if stdenv.hostPlatform.system == "aarch64-linux" then
           "sha256-n8RMKf8OxJsEkcxLe7xZgMu9RyeU58NESFF9F0nLNC4="
         else if stdenv.hostPlatform.system == "aarch64-darwin" then
