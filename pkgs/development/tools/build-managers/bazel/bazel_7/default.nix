@@ -112,7 +112,7 @@ let
       if stdenv.hostPlatform.system == "x86_64-linux" then
         fetchurl {
           url = "https://github.com/bazelbuild/bazel/releases/download/${version}/bazel_nojdk-${version}-linux-x86_64";
-          hash = "sha256-qtlZZLyT8mThXVEJ7vTfon7Xlz0giQgblMownJR7mHU=";
+          hash = "sha256-0glQLNAU0aT7+3Hzv0+IzgvJlfs7y8wflEwFssIvnkk=";
         }
       else if stdenv.hostPlatform.system == "aarch64-linux" then
         fetchurl {
