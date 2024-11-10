@@ -55,7 +55,7 @@ let
 
   src = fetchurl {
     url = "https://github.com/bazelbuild/bazel/releases/download/${version}/bazel-${version}-dist.zip";
-    hash = "sha256-Acu8IUPR8HDdtj4dfzjoJdvvM6N7ivXYCqTp9qFY0jM=";
+    hash = "sha256-GY1wu3O5O7K2MMJv6wjE+DLnUgwjkHdmcqhT1o9G9Cg=";
   };
 
   defaultShellUtils =
